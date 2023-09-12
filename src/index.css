@@ -40,8 +40,34 @@ nav {
 
 main {
   padding: 57px 27px;
+  color: white;
+  background-image: url(../public/images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+
 }
 
-h1 {
+.main--title {
   margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+.main--facts{
+  margin-top: 46px;
+  max-width: 390px;
+}
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+.main--facts > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+.group{
+  height: 234px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 132px;
 }
